@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+$color : #49ca49;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+
+    text-shadow: 00px 0px 20px $color;
+}
+
+html {
+    background-color: black;
+    color: $color;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.maintitle {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
